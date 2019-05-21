@@ -4,6 +4,8 @@
   "description": "A lightweight jQuery plugin to help you create responsive and multi-level navigation menus on the fly.",
   "main": "dist/js/jquery.slimmenu.min.js",
   "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
