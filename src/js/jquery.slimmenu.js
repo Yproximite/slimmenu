@@ -41,7 +41,7 @@
             $menu.before($collapser);
             $menuCollapser = $menu.prev('.menu-collapser');
 
-            $menu.on('click', '.sub-toggle', function (e) {
+            $menu.on('click', '.sub-collapser', function (e) {
                 e.preventDefault();
                 e.stopPropagation();
 
@@ -85,14 +85,14 @@
 
                 $menu.find('li').each(function () {
                     if ($(this).has('ul').length) {
-                        if ($(this).addClass('has-submenu').has('.sub-toggle').length) {
-                            $(this).children('.sub-toggle').html($options.expandIcon);
+                        if ($(this).addClass('has-submenu').has('.sub-collapser').length) {
+                            $(this).children('.sub-collapser').html($options.expandIcon);
                         } else {
-                            $(this).addClass('has-submenu').append('<span class="sub-toggle">' + $options.expandIcon + '</span>');
+                            $(this).addClass('has-submenu').append('<span class="sub-collapser">' + $options.expandIcon + '</span>');
                         }
                     }
 
-                    $(this).children('ul').hide().end().find('.sub-toggle').removeClass('expanded').html($options.expandIcon);
+                    $(this).children('ul').hide().end().find('.sub-collapser').removeClass('expanded').html($options.expandIcon);
                 });
 
                 if ($options.resizeWidth >= windowWidth) {

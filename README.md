@@ -1,3 +1,7 @@
+:warning: Ce fork est une version à jour et modifiée pour éviter un BC (#2) sur nos milliers de sites :warning:
+
+---
+
 # slimMenu jQuery Navigation Menu Plugin.
 
 ### slimMenu is a lightweight jQuery plugin, which is made to create responsive and multi-level navigation menus on the fly.
