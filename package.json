@@ -30,6 +30,12 @@
     "gulp": "^3.9.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.1.0",
-    "gulp-uglify": "^1.4.2"
+    "gulp-uglify": "^1.4.2",
+    "husky": "^2.3.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run build && git add dist/"
+    }
   }
 }
