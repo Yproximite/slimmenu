@@ -1,4 +1,4 @@
-:warning: Ce fork est une version à jour et modifiée pour éviter un BC (#2) sur nos milliers de sites :warning:
+:warning: Ce fork est une version à jour et modifiée pour éviter un BC ([#2](https://github.com/Yproximite/slimmenu/pull/2)) sur nos milliers de sites :warning:
 
 ---
 
